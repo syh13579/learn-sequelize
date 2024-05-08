@@ -7,7 +7,7 @@ const nunjucks = require('nunjucks'); // 템플릿 엔진 Nunjucks 사용
 const { sequelize } = require('./models'); // 폴더내의 index.js 파일은 require할 때 이름 생략 가능
 
 const app = express(); //Express 에플리케이션 생성
-app.set('port', process.env.PORT || 3003); // 포트 설정
+app.set('port', process.env.PORT || 9000); // 포트 설정
 app.set('view engine', 'html'); // 템플릿 엔진을 HTML로 설정
 
 // nunjucks를 Express에 설정
